@@ -17,7 +17,7 @@ const About = () => {
               and i have some project that i create for my portfolio. I have a
               high enthusiasm to learn new things, especially in the world of
               technology. looking for opportunities to develop talent and grow
-              with the company
+              with the company.
             </p>
           </div>
           <div className="w-full px-4 lg:w-1/2">

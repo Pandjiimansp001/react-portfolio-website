@@ -22,7 +22,7 @@ const FrontEnd = () => {
         <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
           {projectData.map((data) => (
             <div key={data.id} className="mb-12 p-4 px-8 md:w-1/2">
-              <div className="rounded-md shadow-md w-[480px] h-[300px] flex items-center overflow-hidden hover:scale-110 duration-300 transition ease-in-out">
+              <div className="rounded-md bg-white shadow-md w-[480px] h-[300px] flex items-center overflow-hidden hover:scale-110 duration-300 transition ease-in-out">
                 <a href={data.link} target="_blank">
                   <img
                     src={data.image}
