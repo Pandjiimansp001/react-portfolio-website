@@ -1,6 +1,7 @@
 import programming from "../../Portfolio/assets/programming.jpg";
-import expenseTracker from "../FrontEnd/assets/react-expense-tracker-app.png";
 import gaweyoPortfolio from "../FrontEnd/assets/gaweyo-portfolio.png";
+import expenseTracker from "../FrontEnd/assets/react-expense-tracker-app.png";
+import todoApp from "../FrontEnd/assets/react-todo-app.png";
 
 const projectData = [
   {
@@ -21,11 +22,11 @@ const projectData = [
   },
   {
     id: "3",
-    image: programming,
-    name: "Project created by pandji iman syach putra",
+    image: todoApp,
+    name: "React Todo App",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quiveniam neque minus, asperiores delectus quaerat molestiae ex ullamporro non",
-    link: "/",
+      "In the todo app application there are several functions such as adding data and also deleting data by clicking on an existing task",
+    link: "https://react-todo-app-two-blush.vercel.app/",
   },
   {
     id: "4",
