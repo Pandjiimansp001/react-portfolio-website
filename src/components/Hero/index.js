@@ -28,7 +28,10 @@ const Hero = () => {
                   Contact Me
                 </button>
               </a>
-              <a href="https://drive.google.com/drive/folders/1XDhxeBLk9l6aB1xucQNyHCr3anbHldUM">
+              <a
+                href="https://drive.google.com/drive/folders/1XDhxeBLk9l6aB1xucQNyHCr3anbHldUM"
+                target="_blank"
+              >
                 <button
                   type="button"
                   className="bg-primary dark:bg-secondPrimary hover:opacity-80 hover:shadow-lg text-white font-semibold py-3 px-8 rounded-full text-base transition duration-300 ease-in-out"

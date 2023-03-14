@@ -1,7 +1,7 @@
-import programming from "../../Portfolio/assets/programming.jpg";
 import gaweyoPortfolio from "../FrontEnd/assets/gaweyo-portfolio.png";
 import expenseTracker from "../FrontEnd/assets/react-expense-tracker-app.png";
 import todoApp from "../FrontEnd/assets/react-todo-app.png";
+import secondmart from "../FrontEnd/assets/secondmart.png";
 
 const projectData = [
   {
@@ -17,7 +17,7 @@ const projectData = [
     image: expenseTracker,
     name: "React Expense Tracker App",
     description:
-      "The expense tracker app consists of several functions or components including add and filter which are equipped with bar charts",
+      "The expense tracker app consists of several functions or components including add and filter which are equipped with bar charts. this app build with reactjs and tailwind css",
     link: "https://react-expense-tracker-chi.vercel.app/",
   },
   {
@@ -25,16 +25,16 @@ const projectData = [
     image: todoApp,
     name: "React Todo App",
     description:
-      "In the todo app application there are several functions such as adding data and also deleting data by clicking on an existing task",
+      "Project build with reactjs and tailwind css. In the todo app application there are several functions such as adding data and also deleting data by clicking on an existing task",
     link: "https://react-todo-app-two-blush.vercel.app/",
   },
   {
     id: "4",
-    image: programming,
-    name: "Project created by pandji iman syach putra",
+    image: secondmart,
+    name: "React E-Commerce Secondmart",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quiveniam neque minus, asperiores delectus quaerat molestiae ex ullamporro non",
-    link: "/",
+      "The components in the project consist of login and registration pages with authentication. checkout, shop, product details and cart pages",
+    link: "https://ecommerce-secondmart.vercel.app/",
   },
 ];
 
