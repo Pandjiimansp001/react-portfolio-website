@@ -14,7 +14,7 @@ const Hero = () => {
               </span>
             </h1>
             <h2 className="font-medium text-secondary text-lg mb-5 lg:text-2xl">
-              Graduate of Informatics Engineering Department
+              Front End Web Developer
             </h2>
             <p className="font-medium text-secondary mb-10 leading-relaxed">
               Welcome to my portofolio website
