@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio">
       <FrontEnd />
-      <CommingSoon />
+      {/* <CommingSoon /> */}
     </div>
   );
 };

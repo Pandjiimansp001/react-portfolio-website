@@ -13,11 +13,11 @@ const About = () => {
               Let me introduce my self.
             </h2>
             <p className="font-medium text-base text-secondary max-w-md lg:text-lg">
-              Hello! My name is Pandji, Graduate from informatics engineering
-              and i have some project that i create for my portfolio. I have a
-              high enthusiasm to learn new things, especially in the world of
-              technology. looking for opportunities to develop talent and grow
-              with the company.
+              Hello! My name is Pandji, Graduates with a bachelor of informatics
+              engineering from the stikubank university in Semarang who have the
+              ability as a Front End Web Developer. Have a high enthusiasm to
+              learn new things, especially in the world of technology. looking
+              for opportunities to develop talent and grow with the company.
             </p>
           </div>
           <div className="w-full px-4 lg:w-1/2">

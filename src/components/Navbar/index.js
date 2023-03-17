@@ -41,7 +41,7 @@ const Navbar = (props) => {
   }, []);
 
   return (
-    <header className="w-full bg-white dark:bg-dark bg-opacity-70 backdrop-blur-sm fixed z-10">
+    <header className="w-full bg-white dark:bg-dark fixed z-10">
       <div
         ref={menuRef}
         className="container md:flex items-center justify-between py-4 md:px-10"
@@ -54,13 +54,17 @@ const Navbar = (props) => {
           onClick={() => setOpenNav(!openNav)}
           className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
         >
-          {openNav ? <MdClose /> : <MdMenu />}
+          {openNav ? (
+            <MdClose className="dark:text-white" />
+          ) : (
+            <MdMenu className="dark:text-white" />
+          )}
         </div>
 
         <ul
           className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
             openNav
-              ? "top-[64px] opacity-100 bg-white bg-opacity-70 backdrop-blur-sm"
+              ? "top-[64px] opacity-100 bg-white dark:bg-dark"
               : "top-[-490px] opacity-0"
           } md:opacity-100`}
         >
@@ -68,13 +72,13 @@ const Navbar = (props) => {
             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
               <a
                 href={link.link}
-                className="text-secondary hover:text-primary dark:hover:text-secondPrimary dark:text-white duration-500"
+                className="text-secondary hover:text-primary dark:hover:text-secondPrimary dark:text-white  duration-500"
               >
                 {link.name}
               </a>
             </li>
           ))}
-          <li className="flex items-center pl-8">
+          <li className="flex items-center pl-0 lg:pl-8">
             <DarkToggle />
           </li>
         </ul>

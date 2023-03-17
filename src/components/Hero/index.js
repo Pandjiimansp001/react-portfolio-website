@@ -23,25 +23,25 @@ const Hero = () => {
               <a href="#contact">
                 <button
                   type="button"
-                  className="bg-primary dark:bg-secondPrimary hover:opacity-80 hover:shadow-lg text-white font-semibold py-3 px-8 rounded-full text-base transition duration-300 ease-in-out"
+                  className="bg-primary dark:bg-secondPrimary hover:opacity-80 hover:shadow-lg text-white font-semibold lg:py-3 lg:px-8 py-2 px-4 rounded-full text-base transition duration-300 ease-in-out"
                 >
                   Contact Me
                 </button>
               </a>
               <a
-                href="https://drive.google.com/drive/folders/1XDhxeBLk9l6aB1xucQNyHCr3anbHldUM"
+                href="https://drive.google.com/drive/folders/1fv2UZy0fh-Vtn6KyQjDP_8hO-mf3iSXP"
                 target="_blank"
               >
                 <button
                   type="button"
-                  className="bg-primary dark:bg-secondPrimary hover:opacity-80 hover:shadow-lg text-white font-semibold py-3 px-8 rounded-full text-base transition duration-300 ease-in-out"
+                  className="bg-primary dark:bg-secondPrimary hover:opacity-80 hover:shadow-lg text-white font-semibold lg:py-3 lg:px-8 py-2 px-4 rounded-full text-base transition duration-300 ease-in-out"
                 >
                   Download CV
                 </button>
               </a>
             </div>
           </div>
-          <div className="w-full flex justify-center lg:justify-start px-4 lg:w-1/2">
+          <div className="w-full flex justify-center lg:justify-start px-4 lg:pt-0 pt-20 lg:w-1/2">
             <img
               src={Me}
               alt="Me"

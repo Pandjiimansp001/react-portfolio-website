@@ -14,19 +14,19 @@ const projectData = [
   },
   {
     id: "2",
-    image: expenseTracker,
-    name: "React Expense Tracker App",
-    description:
-      "The expense tracker app consists of several functions or components including add and filter which are equipped with bar charts. this app build with reactjs and tailwind css",
-    link: "https://react-expense-tracker-chi.vercel.app/",
-  },
-  {
-    id: "3",
     image: todoApp,
     name: "React Todo App",
     description:
       "Project build with reactjs and tailwind css. In the todo app application there are several functions such as adding data and also deleting data by clicking on an existing task",
     link: "https://react-todo-app-two-blush.vercel.app/",
+  },
+  {
+    id: "3",
+    image: expenseTracker,
+    name: "React Expense Tracker App",
+    description:
+      "The expense tracker app consists of several functions or components including add and filter which are equipped with bar charts. this app build with reactjs and tailwind css",
+    link: "https://react-expense-tracker-chi.vercel.app/",
   },
   {
     id: "4",
