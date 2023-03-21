@@ -1,5 +1,6 @@
 import gaweyoPortfolio from "../FrontEnd/assets/gaweyo-portfolio.png";
 import todoApp from "../FrontEnd/assets/react-todo-app.png";
+import loginSystem from "../FrontEnd/assets/react-login-system.png";
 import programming from "../../Portfolio/assets/programming.jpg";
 
 const projectData = [
@@ -19,10 +20,10 @@ const projectData = [
   },
   {
     id: "3",
-    image: programming,
-    name: "Comming soon...",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quiveniam neque minus, asperiores delectus quaerat molestiae ex ullamporro non",
+    image: loginSystem,
+    name: "React Sign In and Sign Up System using Local Storage",
+    description: "Build with: React Js, Sass Css",
+    link: "https://react-login-system.vercel.app/",
   },
   {
     id: "4",
