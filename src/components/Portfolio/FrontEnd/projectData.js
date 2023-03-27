@@ -1,7 +1,6 @@
 import gaweyoPortfolio from "../FrontEnd/assets/gaweyo-portfolio.png";
 import todoApp from "../FrontEnd/assets/react-todo-app.png";
 import loginSystem from "../FrontEnd/assets/react-login-system.png";
-import programming from "../../Portfolio/assets/programming.jpg";
 import crud from "../FrontEnd/assets/react-crud-mysql.png";
 
 const projectData = [
