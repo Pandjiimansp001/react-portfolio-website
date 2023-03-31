@@ -2,6 +2,7 @@ import gaweyoPortfolio from "../FrontEnd/assets/gaweyo-portfolio.png";
 import todoApp from "../FrontEnd/assets/react-todo-app.png";
 import loginSystem from "../FrontEnd/assets/react-login-system.png";
 import crud from "../FrontEnd/assets/react-crud-mysql.png";
+import foodOrder from "../FrontEnd/assets/react-food-order-app.png";
 
 const projectData = [
   {
@@ -31,6 +32,13 @@ const projectData = [
     name: "React CRUD with PHP MYSQL for API",
     description: "Build with: React Js, Bootstrap CSS, PHP, DATABASE MYSQL",
     link: "https://github.com/Pandjiimansp001/react-crud-mysql",
+  },
+  {
+    id: "5",
+    image: foodOrder,
+    name: "React Food Order App",
+    description: "Build with: React Js, Redux, Sass CSS",
+    link: "https://react-redux-food-order-app.vercel.app/",
   },
 ];
 
