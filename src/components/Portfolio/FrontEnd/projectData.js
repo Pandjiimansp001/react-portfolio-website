@@ -3,6 +3,7 @@ import todoApp from "../FrontEnd/assets/react-todo-app.png";
 import loginSystem from "../FrontEnd/assets/react-login-system.png";
 import crud from "../FrontEnd/assets/react-crud-mysql.png";
 import foodOrder from "../FrontEnd/assets/react-food-order-app.png";
+import spotify from "../FrontEnd/assets/spotify-clone.png";
 
 const projectData = [
   {
@@ -39,6 +40,13 @@ const projectData = [
     name: "React Food Order App",
     description: "Build with: React Js, Redux, Sass CSS",
     link: "https://react-redux-food-order-app.vercel.app/",
+  },
+  {
+    id: "6",
+    image: spotify,
+    name: "Next Js Spotify Clone App (Design Only)",
+    description: "Build with: React Next Js, Tailwind CSS",
+    link: "https://nextjs-spotify-clone-black.vercel.app/",
   },
 ];
 
