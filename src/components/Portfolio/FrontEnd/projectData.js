@@ -19,7 +19,7 @@ const projectData = [
     name: "Next Todo App",
     description:
       "Build with: React Next Js, Tailwind CSS, Firebase Firestore DB",
-    link: "https://react-todo-app-two-blush.vercel.app/",
+    link: "https://next-todoapp-firestore.vercel.app/",
   },
   {
     id: "3",
