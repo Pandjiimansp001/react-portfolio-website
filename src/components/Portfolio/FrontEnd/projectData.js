@@ -1,5 +1,5 @@
 import gaweyoPortfolio from "../FrontEnd/assets/gaweyo-portfolio.png";
-import todoApp from "../FrontEnd/assets/react-todo-app.png";
+import todoApp from "../FrontEnd/assets/next-todo-firestore.png";
 import loginSystem from "../FrontEnd/assets/react-login-system.png";
 import crud from "../FrontEnd/assets/react-crud-mysql.png";
 import foodOrder from "../FrontEnd/assets/react-food-order-app.png";
@@ -16,8 +16,9 @@ const projectData = [
   {
     id: "2",
     image: todoApp,
-    name: "React Todo App",
-    description: "Build with: React Js, Tailwind CSS",
+    name: "Next Todo App",
+    description:
+      "Build with: React Next Js, Tailwind CSS, Firebase Firestore DB",
     link: "https://react-todo-app-two-blush.vercel.app/",
   },
   {
